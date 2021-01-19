@@ -1,0 +1,59 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.bodyimg{
+    border-radius:20px;
+    text-align: center;
+    background-image:url(./images/bodyimg.jpg);
+    padding-top: 20px;
+    height: 300px;
+}
+
+.menu button{
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+
+body{
+    color: white;
+    background-color: #2c2c2c;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.grid img{
+    background-color: #363636;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.origami{
+    display: flex;
+    flex-direction: column;
+    background-color: #414141;
+    width: 300px;
+    margin: 25px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.origami p, a{
+    text-align: center;
+}
+
